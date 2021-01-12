@@ -5,6 +5,8 @@ def reverse_each_word(sentence)
   new_array.each do |i|
     word_array = i.chars
     puts "#{word_array}"
+    reverse_word_array = word_array.reverse
+    puts "#{reverse_word_array}"
   end
 
 end
