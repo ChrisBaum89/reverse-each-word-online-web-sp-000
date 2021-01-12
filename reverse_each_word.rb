@@ -1,4 +1,4 @@
-sentence = "Hello there, and how are you?"
+#sentence = "Hello there, and how are you?"
 def reverse_each_word(sentence)
   reverse_string_array = Array.new
   reverse_sentence = ""
@@ -17,4 +17,4 @@ def reverse_each_word(sentence)
   reverse_sentence = reverse_string_array.join(" ")
 end
 
-puts "#{reverse_each_word(sentence)}"
+#puts "#{reverse_each_word(sentence)}"
