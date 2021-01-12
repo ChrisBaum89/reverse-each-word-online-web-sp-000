@@ -3,8 +3,8 @@ def reverse_each_word(sentence)
   new_array = sentence.split()
   puts "#{new_array}"
   new_array.each do |i|
-    count = i.count
-    puts "#{count}"
+    word_length = i.length
+    puts "#{word_length}"
   end
 
 end
