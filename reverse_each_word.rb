@@ -13,7 +13,7 @@ def reverse_each_word(sentence)
     reverse_sentence = reverse_string.join(" ")
     puts "#{reverse_sentence}"
   end
-
+  reverse_sentence
 end
 
 reverse_each_word(sentence)
