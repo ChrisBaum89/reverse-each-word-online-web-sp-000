@@ -7,6 +7,7 @@ def reverse_each_word(sentence)
     puts "#{word_array}"
     reverse_word_array = word_array.reverse
     puts "#{reverse_word_array}"
+    reverse_word_array.join
   end
 
 end
