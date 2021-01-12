@@ -1,4 +1,4 @@
-sentence = "Hello there, and how are you?"
+#sentence = "Hello there, and how are you?"
 def reverse_each_word(sentence)
   reverse_string = Array.new
   new_array = sentence.split()
@@ -16,4 +16,4 @@ def reverse_each_word(sentence)
   reverse_sentence
 end
 
-reverse_each_word(sentence)
+#reverse_each_word(sentence)
