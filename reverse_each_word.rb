@@ -9,8 +9,9 @@ def reverse_each_word(sentence)
     reverse_word_array = word_array.reverse
     #puts "#{reverse_word_array}"
     reverse_string << reverse_word_array.join
-    puts "#{reverse_string}"
+    #puts "#{reverse_string}"
     reverse_sentence = reverse_string.join
+    puts "#{reverse_sentence}"
   end
 
 end
