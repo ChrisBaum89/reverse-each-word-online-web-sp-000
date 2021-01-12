@@ -14,7 +14,7 @@ def reverse_each_word(sentence)
     reverse_sentence = reverse_string_array.join(" ")
     #puts "#{reverse_sentence}"
   end
-  reverse_sentence
+  #reverse_sentence
 end
 
 #reverse_each_word(sentence)
