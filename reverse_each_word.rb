@@ -10,6 +10,7 @@ def reverse_each_word(sentence)
     #puts "#{reverse_word_array}"
     reverse_string << reverse_word_array.join
     puts "#{reverse_string}"
+    reverse_sentence = reverse_string.join
   end
 
 end
