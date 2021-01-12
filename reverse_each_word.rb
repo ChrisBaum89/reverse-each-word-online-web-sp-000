@@ -4,8 +4,9 @@ def reverse_each_word(sentence)
   puts "#{new_array}"
   new_array.each do |i|
     word_length = i.length
-    puts "#{word_length}"
-    word_length.slice(word_length...0)
+    #puts "#{word_length}"
+    new_word = word_length.slice(word_length...0)
+    puts "#{new_word}"
   end
 
 end
