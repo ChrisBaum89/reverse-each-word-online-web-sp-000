@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   puts "#{new_array}"
   new_array.each do |i|
     count = i.count
-  
+
 end
 
 reverse_each_word(sentence)
